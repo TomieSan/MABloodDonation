@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "38657319992",
+    "project_id": "plusma-db",
+    "storage_bucket": "plusma-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38657319992:android:c484ac8a082dc7dcd8f2cd",
+        "android_client_info": {
+          "package_name": "com.mico.mablooddonation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38657319992-5ekc7e61on863vh6quulu2pv8ee93lag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5FavhpL5Xu5MzOVoexT5VRCbMnmKvIkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38657319992-5ekc7e61on863vh6quulu2pv8ee93lag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

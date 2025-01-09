@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#FA4661">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/cktxtHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:text="Home"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cktxtAbtUs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="About Us"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cktxtReqForm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Request Form"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cktxtDonorForm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Donor Form"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cktxtBloodBank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Blood Bank"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cktxtContactUs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Contact Us"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="232dp"
+                    app:srcCompat="@drawable/homepagedonorimg"
+                    tools:ignore="ImageContrastCheck" />
+
+                <TextView
+                    android:id="@+id/homeTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Welcome to +MA!"
+                    android:textAlignment="center"
+                    android:textColor="#FA4661"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btnReqForm"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:gravity="center_vertical"
+                    android:text="|| REQUEST NOW"
+                    android:textColor="#000000"
+                    android:textSize="17dp"
+                    app:icon="@drawable/ic_baseline_assignment_24"
+                    app:iconSize="40dp"
+                    app:iconTint="#FA4661"
+                    app:strokeColor="#FA4661"
+                    app:strokeWidth="2dp" />
+
+                <Button
+                    android:id="@+id/btnDonorForm"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:gravity="center_vertical"
+                    android:text="|| BECOME A DONOR"
+                    android:textColor="#000000"
+                    android:textSize="17dp"
+                    app:icon="@drawable/_67066856690352994"
+                    app:iconSize="40dp"
+                    app:iconTint="#FA4661"
+                    app:strokeColor="#FA4661"
+                    app:strokeWidth="2dp" />
+
+                <Button
+                    android:id="@+id/btnBloodBank"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:gravity="center_vertical"
+                    android:text="|| CHECK BLOOD AVAILABILITY"
+                    android:textColor="#000000"
+                    android:textSize="17dp"
+                    app:icon="@drawable/ic_baseline_search_24"
+                    app:iconSize="40dp"
+                    app:iconTint="#FA4661"
+                    app:strokeColor="#FA4661"
+                    app:strokeWidth="2dp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtStepsBefore"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#FA4661"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:text="STEPS BEFORE BLOOD DONATION"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp"
+                            tools:ignore="TextContrastCheck" />
+
+                        <TextView
+                            android:id="@+id/txtDescStepsBefore"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:text="- Register as a blood donor in the blood donor tab. \n- Enter all required fields and submit. \n- You will be emailed an available Blood Collection Site. "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/txtDescBefore2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:text="At the Blood Collection Site:"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtDescBefore3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="5dp"
+                            android:text="- You will be asked to fill up a donor's form upon arrival. \n- Questions regarding health history will be asked by a trained professional. \n- Pre-donation education and counseling will be given by trained professional. \n- Weight, blood-pressure, pulse rate and temperature will be checked. \n- A physician will be there for your health examination. \n- A small sample of blood will be drawn to check your blood type and haemoglobin."
+                            android:textColor="#000000" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtStepsDuring"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#FA4661"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:text="STEPS DURING BLOOD DONATION"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtDescStepsDuring"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:text="- You will be asked to sit down on a chair for blood collection which will be attended to by a Phlebotomist. \n
+    - The amount of blood which will be drawn will be determined by the Physician which will depend on your body weight and will not exceed 450ml. \n
+    - The process will take about 10-15 minutes."
+                            android:textColor="#000000" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtStepsAfter"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#FA4661"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:text="STEPS DURING BLOOD DONATION"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txtDescStepsAfter"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:text="- You are advised to rest for at least 10 minutes. \n- Post-donation Education and counseling will be given by trained staff. \n- You will be directed to drink more fluids as the volume of fluids taken is completely replaced by the bodu within 3 to 5 hours."
+                            android:textColor="#000000" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
